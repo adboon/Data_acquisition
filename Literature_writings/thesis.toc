@@ -1,0 +1,11 @@
+\babel@toc {english}{}
+\vspace {-\cftbeforepartskip }
+\contentsline {chapter}{\numberline {1}{Introduction}}{5}{chapter.1}%
+\contentsline {subsection}{\numberline {1.0.1}{Green water event types}}{5}{subsection.1.0.1}%
+\contentsline {subsection}{\numberline {1.0.2}{Prediction methods}}{6}{subsection.1.0.2}%
+\contentsline {subsection}{\numberline {1.0.3}{Experiments in literature}}{7}{subsection.1.0.3}%
+\contentsline {subsubsection}{{Air entrapment}}{7}{subsection.1.0.3}%
+\contentsline {subsection}{\numberline {1.0.4}{Simulations}}{8}{subsection.1.0.4}%
+\contentsline {chapter}{\numberline {2}{Objective}}{9}{chapter.2}%
+\contentsline {section}{\numberline {2.1}{Research}}{9}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}{Additional research topics}}{10}{subsection.2.1.1}%
