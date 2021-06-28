@@ -8,8 +8,6 @@ import matplotlib.pyplot as plt
 Runs = [592, 593]
 run_nr = Runs[1]
 
-
-
 #FROM HERE ON POSSIBLY MAKE IT A FUNCTION WITH RUN AS INPUT
 import numpy as np
 from collections import defaultdict
