@@ -1,0 +1,76 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>17.0</Version>
+<Cluster>
+<Name>Settings in</Name>
+<NumElts>3</NumElts>
+<Cluster>
+<Name>Hardware Configuration</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>HW Refnum &lt;Replace Me&gt;</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Signal Type &lt;Replace Me&gt;</Name>
+<Choice>Sine Wave</Choice>
+<Choice>Square with Noise</Choice>
+<Val>0</Val>
+</EW>
+</Cluster>
+<Cluster>
+<Name>Logging Configuration</Name>
+<NumElts>7</NumElts>
+<Path>
+<Name>Log File Base Path</Name>
+<Val>/home/anna/Documents/1Work_in_progress/LabVIEW/DataTests/test.tdms</Val>
+</Path>
+<Refnum>
+<Name>TDMS File Reference</Name>
+<RefKind>TDMS File</RefKind>
+<Val>0x00000000</Val>
+</Refnum>
+<Path>
+<Name>Log File Offsite Path</Name>
+<Val>/home/anna/Documents/1Work_in_progress/LabVIEW/DataToOffsite/test.bin</Val>
+</Path>
+<Boolean>
+<Name>Offsite storage?</Name>
+<Val>0</Val>
+</Boolean>
+<String>
+<Name>Project code</Name>
+<Val>test</Val>
+</String>
+<DBL>
+<Name>Max writing time to a file [min]</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<Refnum>
+<Name>Bin File Reference</Name>
+<RefKind>Byte Stream File</RefKind>
+<Val>0x00000000</Val>
+</Refnum>
+</Cluster>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>4</NumElts>
+<DBL>
+<Name>Elapsed Time</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Test time [s]</Name>
+<Val>2.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Test time zero run[s] </Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<Boolean>
+<Name>Zero run?</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+</Cluster>
+</LVData>
