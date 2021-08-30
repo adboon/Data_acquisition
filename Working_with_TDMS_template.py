@@ -5,8 +5,9 @@
 
 #%%
 ## Create file to save the identified events to
+import csv
 file_events = "IdentifiedEvents.csv" #name of file
-f = open(file_events,"w") #create csv file
+f = open(file_events,"w+") #create csv file
 f.write(str()) #empty the data in the file
 f.close() #close the file
 
@@ -53,14 +54,16 @@ for filepath in files:
     cutoff_value = 9.9 #Value above which data should be saved
     indexes = [i for i,x in enumerate(column_interest) if x > cutoff_value] #Find the index of all values larger than 4.5
     f = open(file_events, "a") #Identifier to append data to file
+    writer = csv.writer(f)
     for index in indexes: #For each index
         f.write('{:.3e}'.format(time[index])) #time written in first column
-        f.write('\t') #tab
+        f.write(',') #tab
+        row = [] #make sure row that is generated to be written is empty
         for ii in range(0,len(D_temp)): #For each column with data
-            f.write('{:.5e}'.format(D_temp[ii][index])) #write the data in scientific format with 5 digits
-            f.write('\t') #tab after writing
-        f.write('\n') #newline after writing everything from a certain index
-    f.close
+            row.append(D_temp[ii][index]) #fill row to be written
+        writer.writerow(row) #write the data in scientific format with 5 digits
+        # f.write('\n') #newline after writing everything from a certain index TWO DIFFERENT TYPE OF SEPERATORS DOESN'T WORK FOR CSV READING
+    f.close()
 
 
 print('Done')
@@ -70,7 +73,18 @@ print('Done')
 
 # %%
 #Test is if data is written away as I want
+import pandas as pd
 
-ff = open(file_events,'r')
-events = f.read()
+events = pd.read_csv(file_events).to_numpy() #read in data from file
+print('file read')
+# events = np.reshape(events,(4,-1)) #reshape
+
+
+import matplotlib.pyplot as plt
+
+plt.figure()
+plt.plot(events[:,0],events[:,1],'.')
+plt.xlabel('Time [s]')
+plt.ylabel('Amplitude')
+
 # %%
