@@ -58,7 +58,7 @@ def plottingTDMSfile(filepath,resolution):
       plt.plot(time[points],Data[i][points])
       plt.xlabel('Time [s]')
       plt.ylabel('Amplitude')   
-      plt.legend(Name, loc='upper left')
+      plt.legend(Name, loc='lower right')
       
 
 

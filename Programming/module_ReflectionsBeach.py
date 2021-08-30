@@ -60,7 +60,7 @@ def Reflect_beach(water_depth, steepness, x_loc, U_curr, eta, eta_measured, time
             eta_X = X[0]*np.cos(omega_a*time - k_i*x_loc[jj]) + X[1]*np.cos(omega_a*time + k_r*x_loc[jj]) + X[2]*np.sin(omega_a*time - k_i*x_loc[jj]) - X[3]*np.sin(omega_a*time + k_r*x_loc[jj])
             eta_found = H_i*0.5*np.cos(-omega_a*time + k_i*x_loc[jj] + phi_i_result) + H_r*0.5*np.cos(omega_a*time + k_r*x_loc[jj] + phi_r_result)
             plt.figure(jj)
-            plt.title(['Location =',x_loc[jj],'m'])
+            plt.title("Location = "+str(x_loc[jj])+"m")
             plt.plot(time,eta_measured[:,jj])
             plt.plot(time,eta_X)
             plt.plot(time,eta_found)
