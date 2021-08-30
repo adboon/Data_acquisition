@@ -10,7 +10,7 @@ filepath = "/home/anna/Documents/1Work_in_progress/Programming/_NAME_2021_07_19_
 group_name, properties, Name, Data, time = readingTDMSfile(filepath)
 
 
-plottingTDMSfile(filepath,1) #filepath, resolution (steps that are plotted (1 = every step, 100 = every 100 steps))
+plottingTDMSfile(filepath,1050) #filepath, resolution (steps that are plotted (1 = every step, 100 = every 100 steps))
 
 
 

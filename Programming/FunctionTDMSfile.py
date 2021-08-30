@@ -48,16 +48,18 @@ def plottingTDMSfile(filepath,resolution):
 
 #Parameters to fill in
     t_start = 0 #start element of time that is plotted [#]
-    t_end = time[-1] #last element of time that is plotted [#]
-    t_int = resolution #interval of plotted points [#]
-
+    t_end = len(time) #last element of time that is plotted [#]
+    t_int = int(resolution) #interval of plotted points [#]
+    points = range(t_start,t_end,t_int) #what will be plotted
 #Making figure
     plt.figure()
+    plt.title(group_name)
     for i in range(0,len(Name)):
-      plt.plot(time[range(t_start,t_end,t_int)],Data[i][range(t_start,t_end,t_int)])
+      plt.plot(time[points],Data[i][points])
       plt.xlabel('Time [s]')
       plt.ylabel('Amplitude')   
-      plt.legend(Name)
+      plt.legend(Name, loc='upper left')
+      
 
 
 
