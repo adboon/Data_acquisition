@@ -83,7 +83,7 @@ Prediction of exceedence of the freeboard is complex due to the many dependencie
 \par 
 DIFFERENT EVENTS AND MORE UNDERSTANDING NEEDED, NEEDED THROUGH STATISTICS
 
-As stated by \cite{Bullock2007,Bogaert2010,Bredmose2009,Peregrine2003}, statistics needed
+As stated by \cite{Bullock2007,Bogaert2010,Bredmose2009,Peregrine2003,Abdussamie2017}, variability within 'constant' conditions, statistics needed
 % The impact and loading caused by green water depend on many variables, such as the motions of the structure and the steepness of the waves \cite{Greco2001, Buchner2002}. Wave steepness of incident waves and wave-body interaction cause important nonlinear effects \cite{Faltinsen2002}. Two types of pressure variations were identified: impulsive type with a rapid rate of pressure rise and non-impulsive type with a gradual pressure rise rate. \cite{Ariyarathne2012}. The impact can be an isolated impact event, but multiple events can also follow each other up, influencing the loadings \cite{Kendon2010}. 
 
 \newpage 
@@ -149,6 +149,7 @@ Not anymore, now the testing facilities and expenses are limiting \\
 Large data sets needed for (name for what Sanne is doing)\\
 This limited size of data sets possibly also prevents experimental data to be used for machine learning \\
 Need for cheap method of generating large data sets for nonlinear wave impacts \\
+Continues experiments would be perfect but not yet a facility for them\\
 Q:\\
 Experimental method needed that can cheaply generate data for loads of different nonlinear wave events \\
 A:\\
@@ -163,6 +164,88 @@ Validated with green water experiments in towing tank (same model) \\
 
 
 First insights from big data (to show value of such a test facility)\\
+
+
+\chapter{Continuous testing facility}
+\label{sec:exp_setup}
+Because of these reasons this experimental facility will be created. \\
+Existing flumetank is used \\
+ALL INFO ABOUT EXISTING FLUMETANK \\
+
+\section{Wavemaker}
+\label{sec:wavemaker}
+Wavemaker: some design conditions \\
+1: has to operate in flow (no obstruction but still good waves) \\
+2: has to be operable within the dimensions of the tank \\
+3: has to be able to make regular and irregular waves \\
+Plunging wedge type wavemaker, based in theory developed over the years by \citet{Madsen1970,Wu1988,Lowell2020} \\
+Designed for waves of a length between 0.05 meter and 3 meter with a maximum wave height over length of 1/50. These values are chosen because at maximum water depth the waves will be deep water to intermediate gravity waves in this range. \\
+To move and control the wavemaker a servo motor (EMMT-AS-80-M-HS-RSB), servo motor controller (CMMT-AS-C3-11A-P3-EP-S1) and electric cylinder (ESBF-BS-50-300-10P-S1-R3)  are used. 
+
+\subsection{Waves wavemaker}
+\label{sec:results_wavemaker}
+HIER METINGEN VAN DE GOLVEN DIE GEMAAKT WORDEN (CONSTANT/SPREIDING, MAX, MIN, ONREGELMATIG)
+
+\section{Beach}
+\label{sec:beach}
+To minimize reflections which will interfere with the created waves, the waves should be dissipated as much as possible once they have moved passed the model \\
+For this a beach is used. \\
+Shape based on \cite{Hodaei2016}. Parabola most effective, exact dimensions from this paper. Perforations are also found to be effective to reduce wave reflections, exact size based on \citet{Chegini1994}. \\
+Longest waves the largest reflection coefficients are found in previous research \cite{Suh2003}. They also contain more energy compared to shorter waves on average, move faster thus could actually be able to move towards the model even if there is current, and they have the highest chance of influencing the results. Because of all these reasons the focus during the designing of the beach has been on damping these largest waves.
+
+\subsection{Effectiveness beach}
+\label{sec:results_beach}
+HIER METINGEN VAN DE DEMPING VAN GOLVEN (VERSCHILLENDE REGELMATIGE GOLVEN, ONREGELMATIGE GOLVEN, VERSCHILLENDE STROOM SNELHEDEN)
+
+\section{Validation facility}
+\label{sec:validation_facility}
+HIER DE VERGELIJKING TUSSEN DE SLEEPTANK EN DE CONTINUOUS TESTING TANK
+
+
+\section{Data handling}
+\label{sec:data_handeling}
+Goal of test facility is to create large amounts of data, but we need to also save, store and work with this data \\
+The data is obtained with the discussed equipment, and acquired with the NI USB 6009. \\
+The data is saved in new files every X minutes using Labview, software from National Instruments. \\
+Video footage is obtained and saved using the open source software Open Broadcaster Software (OBS). 
+
+\subsection{Data analysis}
+\label{sec:analyzing_data}
+To find the events the wetness sensors are used \\
+EXPLAIN HOW I HANDLED ALL THE DATA
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -8,6 +8,14 @@
 \contentsline {subsection}{\numberline {1.0.4}{Theories of Interest}}{8}{subsection.1.0.4}%
 \contentsline {subsection}{\numberline {1.0.5}{Simulations}}{8}{subsection.1.0.5}%
 \contentsline {chapter}{\numberline {2}{SETUP: New way of investigating nonlinear wave events}}{11}{chapter.2}%
-\contentsline {chapter}{\numberline {3}{Objective}}{13}{chapter.3}%
-\contentsline {section}{\numberline {3.1}{Research}}{13}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}{Additional research topics}}{14}{subsection.3.1.1}%
+\contentsline {chapter}{\numberline {3}{Continuous testing facility}}{13}{chapter.3}%
+\contentsline {section}{\numberline {3.1}{Wavemaker}}{13}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}{Waves wavemaker}}{13}{subsection.3.1.1}%
+\contentsline {section}{\numberline {3.2}{Beach}}{13}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}{Effectiveness beach}}{14}{subsection.3.2.1}%
+\contentsline {section}{\numberline {3.3}{Validation facility}}{14}{section.3.3}%
+\contentsline {section}{\numberline {3.4}{Data handling}}{14}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}{Data analysis}}{14}{subsection.3.4.1}%
+\contentsline {chapter}{\numberline {4}{Objective}}{15}{chapter.4}%
+\contentsline {section}{\numberline {4.1}{Research}}{15}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}{Additional research topics}}{16}{subsection.4.1.1}%
