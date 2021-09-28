@@ -1,0 +1,745 @@
+\begin{thebibliography}{91}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Abdussamie et~al.(2017)Abdussamie, Drobyshevski, Ojeda, Thomas, and
+  Amin]{Abdussamie2017}
+N.~Abdussamie, Y.~Drobyshevski, R.~Ojeda, G.~Thomas, and W.~Amin.
+\newblock {Experimental investigation of wave-in-deck impact events on a TLP
+  model}.
+\newblock \emph{Ocean Engineering}, 142:\penalty0 541--562, sep 2017.
+\newblock \doi{10.1016/J.OCEANENG.2017.07.037}.
+
+\bibitem[Alexander()]{NorthSeaDepth}
+L.~M. Alexander.
+\newblock {North Sea | Definition, Location, Map, Countries, and Facts |
+  Britannica}.
+\newblock URL \url{https://www.britannica.com/place/North-Sea}.
+
+\bibitem[Ariyarathne et~al.(2012)Ariyarathne, Chang, and
+  Mercier]{Ariyarathne2012}
+K.~Ariyarathne, K.~A. Chang, and R.~Mercier.
+\newblock {Green water impact pressure on a three-dimensional model structure}.
+\newblock \emph{Experiments in Fluids}, 53\penalty0 (6):\penalty0 1879--1894,
+  dec 2012.
+\newblock ISSN 07234864.
+\newblock \doi{10.1007/s00348-012-1399-9}.
+\newblock URL
+  \url{https://link.springer.com/article/10.1007/s00348-012-1399-9}.
+
+\bibitem[Bagnold(1939)]{Bagnold1939}
+R.~Bagnold.
+\newblock {Interim report on wave-pressure research}.
+\newblock Technical report, 1939.
+\newblock URL
+  \url{https://repository.tudelft.nl/islandora/object/uuid%3Afba1d7fe-13f9-4496-be07-873d7faa607b}.
+
+\bibitem[Benmansour et~al.(2016)Benmansour, Hamoudi, and
+  Adjlout]{Benmansour2016}
+A.~Benmansour, B.~Hamoudi, and L.~Adjlout.
+\newblock {Effect of ship bow overhang on water shipping for ship advancing in
+  regular head waves}.
+\newblock \emph{Journal of Marine Science and Application}, 15\penalty0
+  (1):\penalty0 33--40, mar 2016.
+\newblock ISSN 16719433.
+\newblock \doi{10.1007/s11804-016-1345-y}.
+
+\bibitem[Bogaert et~al.(2010)Bogaert, L{\'{e}}onard, Brosset, and
+  Kaminski]{Bogaert2010}
+H.~Bogaert, S.~L{\'{e}}onard, L.~Brosset, and M.~L. Kaminski.
+\newblock {Sloshing and scaling: Results from the Sloshel project}.
+\newblock \emph{Proceedings of the International Offshore and Polar Engineering
+  Conference}, 3\penalty0 (February):\penalty0 88--97, 2010.
+\newblock ISSN 10986189.
+
+\bibitem[Braeunig et~al.(2009)Braeunig, Brosset, Dias, and
+  Ghidaglia]{Braeunig2009}
+J.-P. Braeunig, L.~Brosset, F.~Dias, and J.-M. Ghidaglia.
+\newblock {Phenomenological Study of Liquid Impacts through 2D Compressible
+  Two-fluid Numerical Simulations}.
+\newblock 2009.
+\newblock URL
+  \url{http://onepetro.org/ISOPEIOPEC/proceedings-pdf/ISOPE09/All-ISOPE09/ISOPE-I-09-432/1778688/isope-i-09-432.pdf/1}.
+
+\bibitem[Bredmose et~al.(2009)Bredmose, Peregrine, and Bullock]{Bredmose2009}
+H.~Bredmose, D.~H. Peregrine, and G.~N. Bullock.
+\newblock {Violent breaking wave impacts. Part 2: Modelling the effect of air}.
+\newblock \emph{Journal of Fluid Mechanics}, 641:\penalty0 389--430, dec 2009.
+\newblock ISSN 00221120.
+\newblock \doi{10.1017/S0022112009991571}.
+
+\bibitem[Brosset et~al.(2013)Brosset, Ghidaglia, Guilcher, and {Le
+  Tarnec}]{Brosset2013}
+L.~Brosset, J.-M. Ghidaglia, P.-M. Guilcher, and L.~{Le Tarnec}.
+\newblock {Generalized Bagnold Model}.
+\newblock 2013.
+\newblock URL \url{www.isope.org}.
+
+\bibitem[Buchner(1995)]{Buchner1995}
+B.~Buchner.
+\newblock {The Impact of Green Water on FPSO Design}.
+\newblock Technical report, 1995.
+
+\bibitem[Buchner(2002)]{Buchner2002}
+B.~Buchner.
+\newblock \emph{{Green water on ship-type offshore structures}}.
+\newblock PhD thesis, 2002.
+\newblock URL
+  \url{https://repository.tudelft.nl/islandora/object/uuid%3Af0c0bd67-d52a-4b79-8451-1279629a5b80}.
+
+\bibitem[Bui and Perera(2021)]{Bui2021}
+K.~Q. Bui and L.~P. Perera.
+\newblock {Advanced data analytics for ship performance monitoring under
+  localized operational conditions}.
+\newblock \emph{Ocean Engineering}, 235, sep 2021.
+\newblock \doi{10.1016/J.OCEANENG.2021.109392}.
+
+\bibitem[Bullock et~al.(2007)Bullock, Obhrai, Peregrine, and
+  Bredmose]{Bullock2007}
+G.~N. Bullock, C.~Obhrai, D.~H. Peregrine, and H.~Bredmose.
+\newblock {Violent breaking wave impacts. Part 1: Results from large-scale
+  regular wave tests on vertical and sloping walls}.
+\newblock \emph{Coastal Engineering}, 54\penalty0 (8):\penalty0 602--617, aug
+  2007.
+\newblock ISSN 03783839.
+\newblock \doi{10.1016/j.coastaleng.2006.12.002}.
+
+\bibitem[Chan(1994)]{Chan1994}
+E.-S. Chan.
+\newblock {Mechanics of deep water plunging-wave impacts on vertical
+  structures}.
+\newblock \emph{Coastal Engineering}, 22\penalty0 (1-2):\penalty0 115--133, jan
+  1994.
+\newblock ISSN 03783839.
+\newblock \doi{10.1016/0378-3839(94)90050-7}.
+\newblock URL
+  \url{https://linkinghub.elsevier.com/retrieve/pii/0378383994900507}.
+
+\bibitem[Chegini(1994)]{Chegini1994}
+V.~Chegini.
+\newblock {Design of Upright Perforated Energy Dissipators for Use in Wave
+  Basins}.
+\newblock Technical report, 1994.
+
+\bibitem[Chuang et~al.(2018)Chuang, Chang, and Mercier]{Chuang2018}
+W.~L. Chuang, K.~A. Chang, and R.~Mercier.
+\newblock {Kinematics and dynamics of green water on a fixed platform in a
+  large wave basin in focusing wave and random wave conditions}.
+\newblock \emph{Experiments in Fluids}, 59\penalty0 (6):\penalty0 100, jun
+  2018.
+\newblock ISSN 07234864.
+\newblock \doi{10.1007/s00348-018-2554-8}.
+\newblock URL \url{https://doi.org/10.1007/s00348-018-2554-8}.
+
+\bibitem[Chuang et~al.(2019)Chuang, Chang, and Mercier]{Chuang2019}
+W.-L. Chuang, K.-A. Chang, and R.~Mercier.
+\newblock \emph{{Review of Experimental Modeling of Green Water in
+  Laboratories}}.
+\newblock 2019.
+\newblock ISBN 9781880653852.
+\newblock URL \url{www.isope.org}.
+
+\bibitem[Collins et~al.(2018)Collins, Potter, Lund, Tamura, and
+  Graber]{Collins2018}
+C.~O. Collins, H.~Potter, B.~Lund, H.~Tamura, and H.~C. Graber.
+\newblock {Directional Wave Spectra Observed During Intense Tropical Cyclones}.
+\newblock \emph{Journal of Geophysical Research: Oceans}, 123\penalty0
+  (2):\penalty0 773--793, feb 2018.
+\newblock ISSN 21699291.
+\newblock \doi{10.1002/2017JC012943}.
+\newblock URL \url{https://doi.org/}.
+
+\bibitem[Cox and Scott(2001)]{Cox2001}
+D.~T. Cox and C.~P. Scott.
+\newblock {Exceedance probability for wave overtopping on a fixed deck}.
+\newblock \emph{Ocean Engineering}, 28\penalty0 (6):\penalty0 707--721, jun
+  2001.
+\newblock ISSN 00298018.
+\newblock \doi{10.1016/S0029-8018(00)00022-6}.
+
+\bibitem[Deelen and {De Jonge}(2014)]{Deelen2014}
+M.~Deelen and J.~B. {De Jonge}.
+\newblock {An Operational Based Method for Determining the Design Sea States of
+  Heavy Transport Vessels}.
+\newblock In \emph{Marine Heavy Transport and Lift IV}. Elsevier, 2014.
+\newblock \doi{10.1016/j.csr.2013.12.013}.
+\newblock URL \url{http://dx.doi.org/10.1016/j.csr.2013.12.013}.
+
+\bibitem[Dias and Ghidaglia(2018)]{Dias2018}
+F.~Dias and J.~M. Ghidaglia.
+\newblock {Slamming: Recent Progress in the Evaluation of Impact Pressures}.
+\newblock \emph{Annual Review of Fluid Mechanics}, 50:\penalty0 243--273, 2018.
+\newblock ISSN 00664189.
+\newblock \doi{10.1146/annurev-fluid-010816-060121}.
+
+\bibitem[Ersdal and Kvitrud(2000)]{Ersdal2000}
+G.~Ersdal and A.~Kvitrud.
+\newblock {Green water on Norwegian production ships}.
+\newblock \emph{Proceedings of the International Offshore and Polar Engineering
+  Conference}, 4\penalty0 (July):\penalty0 211--218, 2000.
+
+\bibitem[Faltinsen et~al.(2002)Faltinsen, Greco, and Landrini]{Faltinsen2002}
+O.~M. Faltinsen, M.~Greco, and M.~Landrini.
+\newblock {Green water loading on a FPSO}.
+\newblock \emph{Journal of Offshore Mechanics and Arctic Engineering},
+  124\penalty0 (2):\penalty0 97--103, may 2002.
+\newblock ISSN 08927219.
+\newblock \doi{10.1115/1.1464128}.
+
+\bibitem[Frick{\'{e}}(2015)]{Fricke2015}
+M.~Frick{\'{e}}.
+\newblock {Big data and its epistemology}.
+\newblock \emph{Journal of the Association for Information Science and
+  Technology}, 66\penalty0 (4):\penalty0 651--661, apr 2015.
+\newblock ISSN 2330-1643.
+\newblock \doi{10.1002/ASI.23212}.
+\newblock URL \url{https://onlinelibrary.wiley.com/doi/full/10.1002/asi.23212
+  https://onlinelibrary.wiley.com/doi/abs/10.1002/asi.23212
+  https://asistdl.onlinelibrary.wiley.com/doi/10.1002/asi.23212}.
+
+\bibitem[George et~al.(2016)George, Osinga, Lavie, and Scott]{George2016}
+G.~George, E.~Osinga, D.~Lavie, and B.~Scott.
+\newblock {Big data and data science methods for management research}.
+\newblock \emph{Academy of Management Journal}, 59\penalty0 (5):\penalty0
+  1493--1507, 2016.
+\newblock ISSN 00014273.
+\newblock \doi{10.5465/amj.2016.4005}.
+
+\bibitem[Greco(2001)]{Greco2001}
+M.~Greco.
+\newblock \emph{{A Two-dimensional Study of Green-Water Loading}}.
+\newblock PhD thesis, 2001.
+
+\bibitem[Greco et~al.(2004)Greco, Landrini, and Faltinsen]{Greco2004}
+M.~Greco, M.~Landrini, and O.~M. Faltinsen.
+\newblock {Impact flows and loads on ship-deck structures}.
+\newblock \emph{Journal of Fluids and Structures}, 19\penalty0 (3):\penalty0
+  251--275, 2004.
+\newblock ISSN 08899746.
+\newblock \doi{10.1016/j.jfluidstructs.2003.12.009}.
+
+\bibitem[Greco et~al.(2005)Greco, Faltinsen, and Landrini]{Greco2005}
+M.~Greco, O.~M. Faltinsen, and M.~Landrini.
+\newblock {Shipping of water on a two-dimensional structure}.
+\newblock \emph{Journal of Fluid Mechanics}, 525:\penalty0 309--332, feb 2005.
+\newblock ISSN 00221120.
+\newblock \doi{10.1017/S0022112004002691}.
+
+\bibitem[Greco et~al.(2007)Greco, Colicchio, and Faltinsen]{Greco2007}
+M.~Greco, G.~Colicchio, and O.~M. Faltinsen.
+\newblock {Shipping of water on a two-dimensional structure. Part 2}.
+\newblock \emph{Journal of Fluid Mechanics}, 581:\penalty0 371--399, jun 2007.
+\newblock ISSN 00221120.
+\newblock \doi{10.1017/S002211200700568X}.
+
+\bibitem[Greco et~al.(2012)Greco, Bouscasse, and Lugni]{Greco2012}
+M.~Greco, B.~Bouscasse, and C.~Lugni.
+\newblock {3-D seakeeping analysis with water on deck and slamming. Part 2:
+  Experiments and physical investigation}.
+\newblock \emph{Journal of Fluids and Structures}, 33:\penalty0 148--179, aug
+  2012.
+\newblock ISSN 08899746.
+\newblock \doi{10.1016/j.jfluidstructs.2012.05.009}.
+
+\bibitem[{Guedes Soares} and Pascoal(2005)]{Soares2005}
+C.~{Guedes Soares} and R.~Pascoal.
+\newblock {Experimental study of the probability distributions of green water
+  on the bow of floating production platforms}.
+\newblock \emph{Journal of Offshore Mechanics and Arctic Engineering},
+  127\penalty0 (3):\penalty0 234--242, aug 2005.
+\newblock ISSN 08927219.
+\newblock \doi{10.1115/1.1951773}.
+
+\bibitem[G{\"{u}}zel and Korkmaz(2019)]{Guzel2019}
+B.~G{\"{u}}zel and F.~C. Korkmaz.
+\newblock {Reducing water entry impact loads on offshore marine structures by
+  forced air entrapment}.
+\newblock \emph{Ships and Offshore Structures}, 2019.
+\newblock \doi{10.1080/17445302.2019.1696534}.
+\newblock URL
+  \url{https://www.tandfonline.com/action/journalInformation?journalCode=tsos20}.
+
+\bibitem[Hamoudi and Varyani(1998)]{Hamoudi1998}
+B.~Hamoudi and K.~S. Varyani.
+\newblock {Significant Load and Green Water on Deck of Offshore Units/Vessels}.
+\newblock \emph{Ocean Engng}, 25\penalty0 (8):\penalty0 715--731, 1998.
+
+\bibitem[Hattori et~al.(1994)Hattori, Arami, and Yui]{Hattori1994}
+M.~Hattori, A.~Arami, and T.~Yui.
+\newblock {Wave impact pressure on vertical walls under breaking waves of
+  various types}.
+\newblock \emph{Coastal Engineering}, 22\penalty0 (1-2):\penalty0 79--114, jan
+  1994.
+\newblock ISSN 03783839.
+\newblock \doi{10.1016/0378-3839(94)90049-3}.
+
+\bibitem[He et~al.(2017)He, Zhang, Tian, and Wang]{He2017}
+G.~He, Z.~Zhang, N.~Tian, and Z.~Wang.
+\newblock \emph{{Nonlinear Analysis of Green Water Impact on Forward-speed
+  Wigley Hull}}.
+\newblock OnePetro, jun 2017.
+\newblock ISBN 9781880653975.
+\newblock URL
+  \url{http://onepetro.org/ISOPEIOPEC/proceedings-pdf/ISOPE17/All-ISOPE17/ISOPE-I-17-260/1267437/isope-i-17-260.pdf}.
+
+\bibitem[Hern{\'{a}}ndez-Fontes
+  et~al.(2020{\natexlab{a}})Hern{\'{a}}ndez-Fontes, Hern{\'{a}}ndez, Mendoza,
+  and Silva]{Hernandez-Fontes2020}
+J.~V. Hern{\'{a}}ndez-Fontes, I.~D. Hern{\'{a}}ndez, E.~Mendoza, and R.~Silva.
+\newblock {Green water evolution on a fixed structure induced by incoming wave
+  trains}.
+\newblock \emph{Mechanics Based Design of Structures and Machines},
+  2020{\natexlab{a}}.
+\newblock ISSN 15397742.
+\newblock \doi{10.1080/15397734.2020.1791179}.
+
+\bibitem[Hern{\'{a}}ndez-Fontes
+  et~al.(2020{\natexlab{b}})Hern{\'{a}}ndez-Fontes, Vitola, Esperan{\c{c}}a,
+  Sphaier, and Silva]{Hernandez-Fontes2020a}
+J.~V. Hern{\'{a}}ndez-Fontes, M.~A. Vitola, P.~T. Esperan{\c{c}}a, S.~H.
+  Sphaier, and R.~Silva.
+\newblock {Patterns and vertical loads in water shipping in systematic wet
+  dam-break experiments}.
+\newblock \emph{Ocean Engineering}, 197, feb 2020{\natexlab{b}}.
+\newblock ISSN 00298018.
+\newblock \doi{10.1016/j.oceaneng.2019.106891}.
+
+\bibitem[Hodaei et~al.(2016)Hodaei, Chamani, Moghim, Mansoorzadeh, and
+  Kabiri-Samani]{Hodaei2016}
+S.~M.~R. Hodaei, M.~R. Chamani, M.~N. Moghim, S.~Mansoorzadeh, and
+  A.~Kabiri-Samani.
+\newblock {Experimental study on reflection coefficient of curved perforated
+  plate}.
+\newblock \emph{Journal of Marine Science and Application}, 15\penalty0
+  (4):\penalty0 382--387, 2016.
+\newblock ISSN 16719433.
+\newblock \doi{10.1007/s11804-016-1383-5}.
+
+\bibitem[Hu and Sueyoshi(2010)]{Hu2010}
+C.~Hu and M.~Sueyoshi.
+\newblock {Numerical simulation and experiment on dam break problem}.
+\newblock \emph{Journal of Marine Science and Application}, 9\penalty0
+  (2):\penalty0 109--114, 2010.
+\newblock ISSN 16719433.
+\newblock \doi{10.1007/s11804-010-9075-z}.
+
+\bibitem[ISSC(2012)]{ISSC2012}
+ISSC.
+\newblock {Proceedings of the 18th International Ship and Offshore Structures
+  Congress}.
+\newblock Technical report, Hamburg, 2012.
+\newblock URL \url{http://www.stg-online.org/publikationen.html}.
+
+\bibitem[ISSC(2018)]{Mandate2018}
+ISSC.
+\newblock \emph{{Commitee I.2 LOADS}}, volume~I.
+\newblock 2018.
+\newblock ISBN 9781614998624.
+\newblock \doi{10.3233/978-1-61499-862-4-101}.
+
+\bibitem[kai Zhang et~al.(2018)kai Zhang, you Shi, jiang Liu, wei Zhao, and lin
+  Wu]{Zhang2018}
+S.~kai Zhang, G.~you Shi, Z.~jiang Liu, Z.~wei Zhao, and Z.~lin Wu.
+\newblock {Data-driven based automatic maritime routing from massive AIS
+  trajectories in the face of disparity}.
+\newblock \emph{Ocean Engineering}, 155:\penalty0 240--250, may 2018.
+\newblock \doi{10.1016/J.OCEANENG.2018.02.060}.
+
+\bibitem[Kang et~al.(2018)Kang, Meng, and Liu]{Kang2018}
+L.~Kang, Q.~Meng, and Q.~Liu.
+\newblock {Fundamental diagram of ship traffic in the Singapore Strait}.
+\newblock \emph{Ocean Engineering}, 147:\penalty0 340--354, jan 2018.
+\newblock \doi{10.1016/J.OCEANENG.2017.10.051}.
+
+\bibitem[Kendon et~al.(2010)Kendon, Pakozdi, Baarholm, Berthelsen, Stansberg,
+  and Enger]{Kendon2010}
+T.~E. Kendon, C.~Pakozdi, R.~J. Baarholm, P.~A. Berthelsen, C.~T. Stansberg,
+  and S.~Enger.
+\newblock {Wave-in-deck impact: Comparing CFD, simple methods, and model
+  tests}.
+\newblock In \emph{Proceedings of the International Conference on Offshore
+  Mechanics and Arctic Engineering - OMAE}, volume~4, pages 495--509, 2010.
+\newblock ISBN 9780791849125.
+\newblock \doi{10.1115/OMAE2010-20860}.
+
+\bibitem[Khojasteh et~al.(2020)Khojasteh, Tavakoli, Dashtimanesh, Dolatshah,
+  Huang, Glamore, Sadat-Noori, and Iglesias]{Khojasteh2020}
+D.~Khojasteh, S.~Tavakoli, A.~Dashtimanesh, A.~Dolatshah, L.~Huang, W.~Glamore,
+  M.~Sadat-Noori, and G.~Iglesias.
+\newblock {Numerical analysis of shipping water impacting a step structure}.
+\newblock \emph{Ocean Engineering}, 209, aug 2020.
+\newblock ISSN 00298018.
+\newblock \doi{10.1016/j.oceaneng.2020.107517}.
+
+\bibitem[Khongchai et~al.(2003)Khongchai, Vibunpant, Eiamsa-ard, and
+  Supongpan]{Khongchai2003}
+N.~Khongchai, S.~Vibunpant, M.~Eiamsa-ard, and M.~Supongpan.
+\newblock {Preliminary analysis of demersal fish assemblages in coastal waters
+  of the Gulf of Thailand}.
+\newblock \emph{Assessment Management and Future Directions for Coastal
+  Fisheries in Asian Countries. WorldFish Center Conference Proceedings},
+  67,1:\penalty0 120, 2003.
+
+\bibitem[Kiger and Duncan(2011)]{Kiger2011}
+K.~T. Kiger and J.~H. Duncan.
+\newblock {Air-entrainment mechanisms in plunging jets and breaking waves}.
+\newblock \emph{Annual Review of Fluid Mechanics}, 44:\penalty0 563--596, 2011.
+\newblock \doi{10.1146/ANNUREV-FLUID-122109-160724}.
+
+\bibitem[Kim et~al.(2013)Kim, Bang, Kim, Kim, Kim, and Kim]{Kim2013}
+K.~H. Kim, J.~S. Bang, J.~H. Kim, Y.~Kim, S.~J. Kim, and Y.~Kim.
+\newblock {Fully coupled BEM-FEM analysis for ship hydroelasticity in waves}.
+\newblock \emph{Marine Structures}, 33:\penalty0 71--99, oct 2013.
+\newblock ISSN 09518339.
+\newblock \doi{10.1016/j.marstruc.2013.04.004}.
+
+\bibitem[Kudupudi et~al.(2019)Kudupudi, Pal, and Datta]{Kudupudi2019}
+R.~B. Kudupudi, S.~K. Pal, and R.~Datta.
+\newblock {A Three-Step Hybrid Method to Study the Influence of Green Water
+  Impact on a Large Containership in Time Domain}.
+\newblock \emph{Journal of Offshore Mechanics and Arctic Engineering},
+  141\penalty0 (5), oct 2019.
+\newblock ISSN 0892-7219.
+\newblock \doi{10.1115/1.4043416}.
+\newblock URL
+  \url{https://asmedigitalcollection.asme.org/offshoremechanics/article/doi/10.1115/1.4043416/727415/A-ThreeStep-Hybrid-Method-to-Study-the-Influence}.
+
+\bibitem[Lafeber et~al.(2012{\natexlab{a}})Lafeber, Brosset, and
+  Bogaert]{Lafeber2012}
+W.~Lafeber, L.~Brosset, and H.~Bogaert.
+\newblock \emph{{Elementary Loading Processes (ELP) involved in breaking wave
+  impacts: findings from the Sloshel project}}.
+\newblock OnePetro, jun 2012{\natexlab{a}}.
+\newblock ISBN 9781880653944.
+\newblock URL \url{www.isope.org}.
+
+\bibitem[Lafeber et~al.(2012{\natexlab{b}})Lafeber, Brosset, and
+  Bogaert]{Lafeber2012b}
+W.~Lafeber, L.~Brosset, and H.~Bogaert.
+\newblock {Comparison of Wave Impact Tests at Large and Full Scale: Results
+  from the Sloshel Project}.
+\newblock 2012{\natexlab{b}}.
+\newblock URL
+  \url{http://onepetro.org/ISOPEIOPEC/proceedings-pdf/ISOPE12/All-ISOPE12/ISOPE-I-12-374/1610950/isope-i-12-374.pdf/1}.
+
+\bibitem[{Le Touz{\'{e}}} et~al.(2010){Le Touz{\'{e}}}, Marsh, Oger, Guilcher,
+  Khaddaj-Mallat, Alessandrini, and Ferrant]{LeTouze2010}
+D.~{Le Touz{\'{e}}}, A.~Marsh, G.~Oger, P.~M. Guilcher, C.~Khaddaj-Mallat,
+  B.~Alessandrini, and P.~Ferrant.
+\newblock {SPH simulation of green water and ship flooding scenarios}.
+\newblock In \emph{Journal of Hydrodynamics}, volume~22, pages 231--236. No
+  longer published by Elsevier, oct 2010.
+\newblock \doi{10.1016/S1001-6058(09)60199-2}.
+
+\bibitem[Lee et~al.(2020)Lee, Jung, Malenica, Chung, Suh, Kim, and
+  Choi]{Lee2020}
+G.~N. Lee, K.~H. Jung, S.~Malenica, Y.~S. Chung, S.~B. Suh, M.~S. Kim, and
+  Y.~H. Choi.
+\newblock {Experimental study on flow kinematics and pressure distribution of
+  green water on a rectangular structure}.
+\newblock \emph{Ocean Engineering}, 195, jan 2020.
+\newblock ISSN 00298018.
+\newblock \doi{10.1016/j.oceaneng.2019.106649}.
+
+\bibitem[Lee et~al.(2012)Lee, Lim, and Rhee]{Lee2012}
+H.~H. Lee, H.~J. Lim, and S.~H. Rhee.
+\newblock {Experimental investigation of green water on deck for a CFD
+  validation database}.
+\newblock \emph{Ocean Engineering}, 42:\penalty0 47--60, mar 2012.
+\newblock ISSN 00298018.
+\newblock \doi{10.1016/j.oceaneng.2011.12.026}.
+
+\bibitem[Liut et~al.(2013)Liut, Weems, and Yen]{Liut2013}
+D.~A. Liut, K.~M. Weems, and T.-G. Yen.
+\newblock {A Quasi-three-dimensional Finite-volume Shallow Water Model for
+  Green Water on Deck}.
+\newblock 57\penalty0 (3):\penalty0 125--140, 2013.
+
+\bibitem[Lowell and Irani(2020)]{Lowell2020}
+S.~Lowell and R.~A. Irani.
+\newblock {Sensitivity analysis of plunger-type wavemakers with water current}.
+\newblock In \emph{IEEE}, 2020.
+\newblock ISBN 9781728154466.
+
+\bibitem[Lu et~al.(2012)Lu, Yang, and L{\"{o}}hner]{Lu2012}
+H.~Lu, C.~Yang, and R.~L{\"{o}}hner.
+\newblock {Numerical Studies of Green Water Impact on Fixed and Moving Bodies}.
+\newblock Technical Report~2, 2012.
+\newblock URL \url{http://www.isope.org/publications}.
+
+\bibitem[Lugni et~al.(2006)Lugni, Brocchini, and Faltinsen]{Lugni2006}
+C.~Lugni, M.~Brocchini, and O.~M. Faltinsen.
+\newblock {Wave impact loads: The role of the flip-through}.
+\newblock In \emph{Physics of Fluids}, volume~18. American Institute of Physics
+  Inc., 2006.
+\newblock \doi{10.1063/1.2399077}.
+
+\bibitem[Madsen(1970)]{Madsen1970}
+O.~S. Madsen.
+\newblock {Waves generated by a piston- type wavemaker}.
+\newblock 1:\penalty0 589--607, 1970.
+\newblock ISSN 0589-087X.
+\newblock \doi{10.9753/icce.v12.36}.
+
+\bibitem[Mazaheri and Imani(2019)]{Mazaheri2019}
+S.~Mazaheri and H.~Imani.
+\newblock {Evaluation and modification of JONSWAP spectral parameters in the
+  Persian Gulf considering offshore wave characteristics under storm
+  conditions}.
+\newblock \emph{Ocean Dynamics}, 69\penalty0 (5):\penalty0 615--639, may 2019.
+\newblock ISSN 16167228.
+\newblock \doi{10.1007/s10236-019-01265-3}.
+\newblock URL
+  \url{https://ui.adsabs.harvard.edu/abs/2019OcDyn..69..615M/abstract}.
+
+\bibitem[Mori and Cox(2003)]{Mori2003}
+N.~Mori and D.~T. Cox.
+\newblock {Dynamic properties of green water event in the overtopping of
+  extreme waves on a fixed dock}.
+\newblock \emph{Ocean Engineering}, 30\penalty0 (16):\penalty0 2021--2052, nov
+  2003.
+\newblock ISSN 00298018.
+\newblock \doi{10.1016/S0029-8018(03)00073-8}.
+
+\bibitem[Ogawa(2003)]{Ogawa2003}
+Y.~Ogawa.
+\newblock {Long-term prediction method for the green water load and volume for
+  an assessment of the load line}.
+\newblock \emph{Journal of Marine Science and Technology}, 7\penalty0
+  (3):\penalty0 137--144, 2003.
+\newblock ISSN 09484280.
+\newblock \doi{10.1007/s007730300004}.
+\newblock URL
+  \url{https://link-springer-com.tudelft.idm.oclc.org/article/10.1007/s007730300004}.
+
+\bibitem[Ogawa et~al.(2001)Ogawa, Taguchi, Watanabe, and Ishida]{Ogawa2001}
+Y.~Ogawa, H.~Taguchi, I.~Watanabe, and S.~Ishida.
+\newblock {Long term prediction method of shipping water load for assessment of
+  the bow height}.
+\newblock \emph{Practical Design of Ships and Other Floating Structures}, 2001.
+
+\bibitem[Ouellet and Datta(1986)]{Ouellet1986}
+Y.~Ouellet and I.~Datta.
+\newblock {A survey of wave absorbers}.
+\newblock \emph{Journal of Hydraulic Research}, 24\penalty0 (4):\penalty0
+  265--280, 1986.
+\newblock ISSN 00221686.
+\newblock \doi{10.1080/00221688609499305}.
+
+\bibitem[Oumeraci et~al.(1993)Oumeraci, Klammer, and Partenscky]{Oumeraci1993}
+H.~Oumeraci, P.~Klammer, and H.~W. Partenscky.
+\newblock {Classification of Breaking Wave Loads on Vertical Structures}.
+\newblock \emph{Journal of Waterway, Port, Coastal, and Ocean Engineering},
+  119\penalty0 (4):\penalty0 381--397, jul 1993.
+\newblock \doi{10.1061/(ASCE)0733-950X(1993)119:4(381)}.
+
+\bibitem[Pakozdi et~al.(2014)Pakozdi, {De Carvalho E Silva}, {\"{O}}stman, and
+  Stansberg]{Pakozdi2014}
+C.~Pakozdi, D.~F. {De Carvalho E Silva}, A.~{\"{O}}stman, and C.~T. Stansberg.
+\newblock {Green water on FPSO analyzed by a coupled potential-flow - NS-VOF
+  method}.
+\newblock In \emph{Proceedings of the International Conference on Offshore
+  Mechanics and Arctic Engineering - OMAE}, volume~8B. American Society of
+  Mechanical Engineers (ASME), 2014.
+\newblock ISBN 9780791845516.
+\newblock \doi{10.1115/OMAE2014-23913}.
+
+\bibitem[Peregrine(2003)]{Peregrine2003}
+D.~H. Peregrine.
+\newblock {Water-wave impact on walls}.
+\newblock \emph{Annual Review of Fluid Mechanics}, 35:\penalty0 23--43, 2003.
+\newblock ISSN 00664189.
+\newblock \doi{10.1146/annurev.fluid.35.101101.161153}.
+
+\bibitem[{Platform voor Marien Onderzoek}()]{Zeecijfers}
+{Platform voor Marien Onderzoek}.
+\newblock {Zeecijfers}.
+\newblock URL
+  \url{http://www.vliz.be/cijfers_beleid/zeecijfers/main.php?id=1&sid=1}.
+
+\bibitem[Ritter(1892)]{Ritter1892}
+A.~Ritter.
+\newblock {Die Fortpflanzung der Wasserwellen}.
+\newblock \emph{Vereine Deutcher Ingenieure Zeitswchrift}, 36:\penalty0
+  947--954, 1892.
+\newblock URL
+  \url{https://www.worldcat.org/title/fortpflanzung-der-wasserwellen/oclc/707693145}.
+
+\bibitem[Ryu et~al.(2007)Ryu, Chang, and Mercier]{Ryu2007}
+Y.~Ryu, K.~A. Chang, and R.~Mercier.
+\newblock {Application of dam-break flow to green water prediction}.
+\newblock \emph{Applied Ocean Research}, 29\penalty0 (3):\penalty0 128--136,
+  jul 2007.
+\newblock ISSN 01411187.
+\newblock \doi{10.1016/j.apor.2007.10.002}.
+
+\bibitem[Scharnke et~al.(2017)Scharnke, Lindeboom, and Duz]{Scharnke2017}
+J.~Scharnke, R.~Lindeboom, and B.~Duz.
+\newblock {Wave-in-Deck Impact Loads in Relation With Wave Kinematics}.
+\newblock \penalty0 (January 2018), 2017.
+\newblock \doi{10.1115/omae2017-61406}.
+
+\bibitem[Schiller et~al.(2014)Schiller, P{\^{a}}kozdi, Stansberg, Yuba, and {De
+  Carvalho E Silva}]{Schiller2014}
+R.~V. Schiller, C.~P{\^{a}}kozdi, C.~T. Stansberg, D.~G.~T. Yuba, and D.~F. {De
+  Carvalho E Silva}.
+\newblock {Green water on FPSO predicted by a practical engineering method and
+  validated against model test data for irregular waves}.
+\newblock In \emph{Proceedings of the International Conference on Offshore
+  Mechanics and Arctic Engineering - OMAE}, volume~8B. American Society of
+  Mechanical Engineers (ASME), 2014.
+\newblock ISBN 9780791845516.
+\newblock \doi{10.1115/OMAE2014-24084}.
+
+\bibitem[Shaw and Lin(2021)]{Shaw2021}
+H.~J. Shaw and C.~K. Lin.
+\newblock {Marine big data analysis of ships for the energy efficiency changes
+  of the hull and maintenance evaluation based on the ISO 19030 standard}.
+\newblock \emph{Ocean Engineering}, 232, jul 2021.
+\newblock \doi{10.1016/J.OCEANENG.2021.108953}.
+
+\bibitem[Soares and Garbatov(2015)]{Soares2015}
+C.~G. Soares and Y.~Garbatov.
+\newblock \emph{{Ships and Offshore Structures XIX}}.
+\newblock CRC Press, 2015.
+\newblock ISBN 1315647192, 9781315647197.
+\newblock URL
+  \url{https://books.google.nl/books?id=d9CYCgAAQBAJ&dq=kinema3+green+water&hl=nl&source=gbs_navlinks_s}.
+
+\bibitem[Song et~al.(2015)Song, Chang, Ariyarathne, and Mercier]{Song2015}
+Y.~K. Song, K.~A. Chang, K.~Ariyarathne, and R.~Mercier.
+\newblock {Surface velocity and impact pressure of green water flow on a fixed
+  model structure in a large wave basin}.
+\newblock \emph{Ocean Engineering}, 104:\penalty0 40--51, may 2015.
+\newblock ISSN 00298018.
+\newblock \doi{10.1016/j.oceaneng.2015.04.085}.
+
+\bibitem[Stansberg and Karlsen(2001)]{Stansberg2001}
+C.~T. Stansberg and S.~I. Karlsen.
+\newblock {Green sea and water impact on FPSO in steep random waves}.
+\newblock \emph{Practical Design of Ships and Other Floating Structures}, pages
+  593--601, 2001.
+
+\bibitem[Suh et~al.(2003)Suh, Son, Lee, and Lee]{Suh2003}
+K.~D. Suh, S.~Y. Son, J.~I. Lee, and T.~H. Lee.
+\newblock {Calculation of irregular wave reflection from perforated-wall
+  caisson breakwaters using a regular wave model}.
+\newblock In \emph{Coastal Engineering}, pages 1--15, 2003.
+
+\bibitem[Sun et~al.(2019)Sun, Sun, Liang, and Zhao]{Sun2019}
+H.~Sun, Z.~Sun, S.~Liang, and X.~Zhao.
+\newblock {Numerical study of air compressibility effects in breaking wave
+  impacts using a CIP-based model}.
+\newblock \emph{Ocean Engineering}, 174:\penalty0 159--168, feb 2019.
+\newblock ISSN 00298018.
+\newblock \doi{10.1016/j.oceaneng.2019.01.050}.
+
+\bibitem[Techet()]{Techet2005}
+A.~H. Techet.
+\newblock {3.42 Lecture: Ocean Waves Spring 2005 Ocean Waves}.
+\newblock Technical report.
+
+\bibitem[Temarel et~al.(2016)Temarel, Bai, Bruns, Derbanne, Dessi, Dhavalikar,
+  Fonseca, Fukasawa, Gu, Nesteg{\aa}rd, Papanikolaou, Parunov, Song, and
+  Wang]{Temarel2016}
+P.~Temarel, W.~Bai, A.~Bruns, Q.~Derbanne, D.~Dessi, S.~Dhavalikar, N.~Fonseca,
+  T.~Fukasawa, X.~Gu, A.~Nesteg{\aa}rd, A.~Papanikolaou, J.~Parunov, K.~H.
+  Song, and S.~Wang.
+\newblock {Prediction of wave-induced loads on ships: Progress and challenges}.
+\newblock \emph{Ocean Engineering}, 119:\penalty0 274--308, jun 2016.
+\newblock ISSN 00298018.
+\newblock \doi{10.1016/j.oceaneng.2016.03.030}.
+
+\bibitem[Tolle et~al.(2011)Tolle, Tansley, and Hey]{Tolle2011}
+K.~M. Tolle, D.~S.~W. Tansley, and A.~J. Hey.
+\newblock \emph{{The fourth Paradigm: Data-intensive scientific discovery}},
+  volume~99.
+\newblock 2011.
+\newblock ISBN 9780982544204.
+\newblock \doi{10.1109/JPROC.2011.2155130}.
+
+\bibitem[{Van Der Eijk} and Wellens(2020)]{VanDerEijk2020a}
+M.~{Van Der Eijk} and P.~R. Wellens.
+\newblock {A compressible two-phase flow model for pressure oscillations in air
+  entrapments following green water impact events on ships}.
+\newblock \emph{International Shipbuilding Progress}, 66\penalty0 (4):\penalty0
+  315--343, 2020.
+\newblock ISSN 15662829.
+\newblock \doi{10.3233/ISP-200278}.
+
+\bibitem[Wagner(1932)]{Wagner1932}
+H.~Wagner.
+\newblock {{\"{U}}ber Sto{\ss}‐ und Gleitvorg{\"{a}}nge an der
+  Oberfl{\"{a}}che von Fl{\"{u}}ssigkeiten}.
+\newblock \emph{ZAMM ‐ Journal of Applied Mathematics and Mechanics /
+  Zeitschrift f{\"{u}}r Angewandte Mathematik und Mechanik}, 12\penalty0
+  (4):\penalty0 193--215, 1932.
+\newblock \doi{10.1002/ZAMM.19320120402}.
+
+\bibitem[Wang et~al.(2020)Wang, Li, Wan, Yang, Wang, Guan, and Fu]{Wang2020a}
+L.~Wang, Y.~Li, Z.~Wan, Z.~Yang, T.~Wang, K.~Guan, and L.~Fu.
+\newblock {Use of AIS data for performance evaluation of ship traffic with
+  speed control}.
+\newblock \emph{Ocean Engineering}, 204, may 2020.
+\newblock \doi{10.1016/J.OCEANENG.2020.107259}.
+
+\bibitem[Wang et~al.(2017)Wang, Wang, and Woo]{Wang2017}
+S.~Wang, X.~Wang, and W.~L. Woo.
+\newblock \emph{{Numerical Green Water Assessment for an FPSO with
+  Consideration of Nonlinear Effects from Bilge Keel, Spread Mooring and
+  Asymmetric Risers}}.
+\newblock OnePetro, jun 2017.
+\newblock ISBN 9781880653975.
+\newblock URL
+  \url{http://onepetro.org/ISOPEIOPEC/proceedings-pdf/ISOPE17/All-ISOPE17/ISOPE-I-17-555/1256945/isope-i-17-555.pdf}.
+
+\bibitem[Wu(1988)]{Wu1988}
+Y.-C. Wu.
+\newblock {Plunger-type wavemaker theory}.
+\newblock \emph{Journal of Hydraulic Research}, 26\penalty0 (4), 1988.
+
+\bibitem[Yan et~al.(2018)Yan, Wang, Yuan, Jiang, and Negenborn]{Yan2018}
+X.~Yan, K.~Wang, Y.~Yuan, X.~Jiang, and R.~R. Negenborn.
+\newblock {Energy-efficient shipping: An application of big data analysis for
+  optimizing engine speed of inland ships considering multiple environmental
+  factors}.
+\newblock \emph{Ocean Engineering}, 169:\penalty0 457--468, dec 2018.
+\newblock \doi{10.1016/J.OCEANENG.2018.08.050}.
+
+\bibitem[Zhang and Meng(2019)]{Zhang2019b}
+L.~Zhang and Q.~Meng.
+\newblock {Probabilistic ship domain with applications to ship collision risk
+  assessment}.
+\newblock \emph{Ocean Engineering}, 186, aug 2019.
+\newblock \doi{10.1016/J.OCEANENG.2019.106130}.
+
+\bibitem[Zhang et~al.(2021)Zhang, Conti, {Le Sourne}, Vassalos, Kujala,
+  Lindroth, and Hirdaris]{Zhang2021}
+M.~Zhang, F.~Conti, H.~{Le Sourne}, D.~Vassalos, P.~Kujala, D.~Lindroth, and
+  S.~Hirdaris.
+\newblock {A method for the direct assessment of ship collision damage and
+  flooding risk in real conditions}.
+\newblock \emph{Ocean Engineering}, 237, oct 2021.
+\newblock \doi{10.1016/J.OCEANENG.2021.109605}.
+
+\bibitem[Zhang et~al.(2019)Zhang, Draper, Wolgamot, Zhao, and Cheng]{Zhang2019}
+X.~Zhang, S.~Draper, H.~Wolgamot, W.~Zhao, and L.~Cheng.
+\newblock {Eliciting features of 2D greenwater overtopping of a fixed box using
+  modified dam break models}.
+\newblock \emph{Applied Ocean Research}, 84\penalty0 (January):\penalty0
+  74--91, 2019.
+\newblock ISSN 01411187.
+\newblock \doi{10.1016/j.apor.2019.01.006}.
+
+\bibitem[Zhu et~al.(2009)Zhu, Miao, and Lin]{Zhu2009}
+R.~Zhu, G.~Miao, and Z.~Lin.
+\newblock {Numerical Research on FPSOs With Green Water Occurrence}.
+\newblock \emph{Journal of Ship Research}, 53\penalty0 (01):\penalty0 7--18,
+  mar 2009.
+\newblock ISSN 0022-4502.
+\newblock \doi{10.5957/JSR.2009.53.1.7}.
+
+\end{thebibliography}

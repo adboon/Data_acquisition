@@ -1,0 +1,78 @@
+This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: thesis.aux
+The style file: abbrvnat.bst
+Database file #1: library.bib
+Repeated entry---line 2481 of file library.bib
+ : @article{Hernandez-Fontes2020a
+ :                               ,
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "VanDerEijk2020"
+Warning--empty year in NorthSeaDepth
+Warning--empty institution in Bagnold1939
+Warning--empty journal in Braeunig2009
+Warning--empty journal in Brosset2013
+Warning--empty institution in Buchner1995
+Warning--empty school in Buchner2002
+Warning--empty institution in Chegini1994
+Warning--empty publisher in Chuang2019
+Warning--empty school in Greco2001
+Warning--empty institution in ISSC2012
+Warning--can't use both volume and number fields in Mandate2018
+Warning--empty publisher in Mandate2018
+Warning--empty journal in Lafeber2012b
+Warning--can't use both volume and number fields in LeTouze2010
+Warning--empty journal in Liut2013
+Warning--empty institution in Lu2012
+Warning--can't use both volume and number fields in Lugni2006
+Warning--empty journal in Madsen1970
+Warning--empty year in Zeecijfers
+Warning--empty journal in Scharnke2017
+Warning--there's a number but no volume in Scharnke2017
+Warning--empty institution in Techet2005
+Warning--empty year in Techet2005
+Warning--empty year in Techet2005
+Warning--can't use both volume and number fields in Tolle2011
+Warning--empty publisher in Tolle2011
+You've used 91 entries,
+            2773 wiz_defined-function locations,
+            1287 strings with 24783 characters,
+and the built_in function-call counts, 44979 in all, are:
+= -- 4162
+> -- 2802
+< -- 49
++ -- 948
+- -- 855
+* -- 3985
+:= -- 7149
+add.period$ -- 415
+call.type$ -- 91
+change.case$ -- 554
+chr.to.int$ -- 89
+cite$ -- 208
+duplicate$ -- 1866
+empty$ -- 3317
+format.name$ -- 984
+if$ -- 9232
+int.to.chr$ -- 3
+int.to.str$ -- 1
+missing$ -- 88
+newline$ -- 600
+num.names$ -- 364
+pop$ -- 924
+preamble$ -- 1
+purify$ -- 467
+quote$ -- 0
+skip$ -- 1402
+stack$ -- 0
+substring$ -- 1426
+swap$ -- 177
+text.length$ -- 12
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 966
+warning$ -- 26
+while$ -- 379
+width$ -- 0
+write$ -- 1437
+(There was 1 error message)

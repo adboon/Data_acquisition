@@ -1,0 +1,252 @@
+\chapter{Literature}
+\label{sec:literature}
+%MAKE THIS A CLEAR OVERVIEW OF ALL THE LITERATURE \par 
+Ships and offshore structures are out in the ocean to transport the many goods we send around the world. pump up oil, or place wind turbines. Waves impact these structures, causing large loads. Green water is one of these impact types.
+Green water is water that impacts on deck or superstructures. It can lead to huge impact pressures. As \citet{Buchner2002} stated, green water is a non-linear and strongly complex problem. Also as during green water events, free surface, air and water interact in a way that can lead to entrained and entrapped air \cite{VanDerEijk2020a}. It was found that with increased forward speed, the probability of green water increased \cite{Greco2012, Hamoudi1998}. Most studies focused on head waves, but green water can also occur on the side of a vessel.
+
+\section{Green water research}
+\label{sec:lit_green_water}
+Research into green water can be categorized into three groups: approximations, numerical and experimental \cite{ISSC2012}. 
+\par 
+Numerical methods are more accurate than these approximation methods. The problem with numerical simulations is that they take excessive computational time \cite{Soares2015}.  
+\par 
+Experiments for green water events are still being carried out today, as it is an affordable and relatively accurate method. 
+\par 
+Approximations are empirical and analytical methods. They are simple and fast but less accurate. They consist mostly of predicting freeboard exceedance, as most greenwater events occur when the freeboard is exceeded. 
+Prediction of exceedence of the freeboard is complex due to the many dependencies \cite{Lee2020}. These are for instance wave steepness or structure motions \cite{Greco2001,Buchner2002}. These parameters also introduce nonlinearities \cite{Faltinsen2002}. Researchers have made probability distributions of the free-board exceedance based on empirical parameters. Examples are \citet{Buchner2002}, \citet{Cox2001} and \citet{Soares2005}. \par 
+In this literature review, firstly an in depth dive into experimental green water research and what came from it is presented. Afterwards, some research on improving simulation methods is shown.
+
+
+
+
+%\begin{itemize}
+%	\item - Ship sail in the ocean
+%	\item - They encounter waves
+%	\item - These waves impact on the ship
+%	\item - When a wave impacts on the deck or superstructure of a ship it is called green water
+%\end{itemize} 
+%Multiple events can lead to water coming on board, an example is when an incoming wave significantly exceeds the freeboard \cite{Soares2015}. 
+%\begin{itemize}
+%	\item - Green water is nonlinear.
+%	\item - If and how it occurs depends on many aspects. ......... found that, .............. found the dependency..............
+%	[THIS SHOULD BE A PART OF LITERATURE WHERE AN OVERVIEW OF WHAT DEPENDENCIES WE KNOW, AND THE PROBLEMS, ARE GIVEN]
+%	\item - Correlations are shown, but still complex
+%	\item - With this knowledge, still difficult to predict
+%	\item - Attempts to have prediction methods (summation with citations)
+%%	\item - Mostly for dam-break event type
+%%	\item - But many more types .........
+%%	\item - (physics of the event)
+%%	\item - (level of understanding)
+%%	\item - (local vs global forces)
+%%	\item - (max forces)
+%%	\item - 
+%	\item - Capturing all in one model, but they are different
+%	\item - Because of this, no good prediction method yet
+%	\item - Need to first understand all the events better
+%	\item - As stated by (MANY), statistics needed
+%\end{itemize}
+
+
+\section{Experimental research}
+\label{sec:lit_exp_green_water} 
+Experiments are still the most reliable way to find green water loading. A database with experimental results was developed for validation of the simulations \cite{Lee2012}.  Almost exclusively FPSO type vessels or container ships, or simplified structures (step structures and cubic shapes) have been researched \cite{Chuang2019}. The focus on FPSO's is because of the equipment on deck, but it is found that green water loadings are significant and should also be considered while designing other ship types \cite{Kudupudi2019}. \par 
+Experimental work has been conducted by \citet{Buchner2002} and \citet{Greco2001} leading to insight into green water loading, both focussed on FPSO type vessels. From the 2D study by \citet{Greco2001}, it is found that various aspects of the ship are of importance. From most to least influential on the loading: Freeboard, wave steepness, relative vertical motion, coupled flow between deck and outside, local flow at the bow, 3D effects, local design of deckhouse, stem angle, trim angle, hydro-elasticity during impact.  Experiments are conducted, focussing on the influence of the bow overhang for a multipurpose cargo ship. This too is a factor in the resulting amount of green waters \cite{Benmansour2016}. Also, an increase in green water was found with an increase of forward velocity \cite{Greco2012}. Experiments using bubble image velocimetry techniques found the full green water velocities. A correlation between velocity and impact pressure was identified \cite{Song2015}. \par  
+The most common form of water overtopping onto the deck is the dam-break scenario. This can be modelled with the Saint Venant shallow water equation implemented by \citet{Ritter1892}. Experiments show that this dam-break model captures the green water events reasonably well \cite{Ryu2007, Chuang2018}. The relationship between the initial water depth of the dam-break and the freeboard exceedance remains unclear \cite{Chuang2019}. In addition to dam-break solutions, shallow water equations are also directly applied to simulate green water flows \cite{Greco2012, Liut2013}. Green water can occur because of a negative freeboard as discussed in paragraph \ref{sec:lit_green_water}. However, hammer-fist events can occur when there is a positive freeboard \cite{Greco2001}. Still, research is conducted into finding the relative wave elevation to help predict the occurrence of green water \cite{Buchner1995, Soares2005, Mori2003, Cox2001}. This has not resulted in a generalized method due to the complexity of wave-structure interactions and the non-linear sea states and dynamic structure responses \cite{Chuang2019}. \par 
+Something that should be noted is that various papers (\cite{Bullock2007,Bogaert2010,Bredmose2009,Peregrine2003,Abdussamie2017}) have noted the variance in resulting pressures for seemingly constant conditions. It is explained that the violent and chaotic nature of wave impacts are the cause. It also shows that more understanding around the statistical nature of green water would be valuable.
+
+
+
+
+%DIFFERENT EVENTS AND MORE UNDERSTANDING NEEDED, NEEDED THROUGH STATISTICS
+%As stated by, variability within 'constant' conditions, statistics needed
+
+\subsubsection{Overview of experimental green water research}
+\label{sec:lit_summary_exp_greenwater}
+To get a better overview of the experimental work already done on green water, an overview of the found literature discussing experiments is created. This is shown in table \ref{tab:all_exp_greenwater}. It shows 24 papers and the structure type used in the research, as well as the flow. Note that only 3 of the 24 considered works also take current into account. 4 papers look at a box placed in its entirety above the waterline.
+
+\begin{table}[]
+	\caption{Overview of experimental green water research considered}
+	\begin{tabular}{ll|cc}
+		\multicolumn{1}{l}{\textbf{Year}}      & \multicolumn{1}{l|}{\textbf{Research}}  & \multicolumn{1}{c}{\textbf{Structure type}} & \multicolumn{1}{c}{\textbf{Wave and flow type}}  \\ \hline 
+		1995                                   &  \citet{Buchner1995}                            & Ship                                        & JONSWAP + flow                                 \\
+		1998                                   & \citet{Hamoudi1998}                             & Ship                                        & JONSWAP + flow                                \\
+		2000                                   & \citet{Ersdal2000}                             & Ship                                        & Irregular                            \\
+		2001                                   & \citet{Stansberg2001}                           & Ship                                        & Irregular                              \\
+		2001                                   & \citet{Cox2001}                               & Box above water                                        & JONSWAP                                \\
+		2001                                   & \citet{Ogawa2001}                               & Ship                                        & Regular \& Irregular + flow                  \\
+		2002                                   & \citet{Faltinsen2002}                         & Box                                         & Regular                               \\
+		2003                                   & \citet{Ogawa2003}                               & Ship                                        & Regular \& Irregular                     \\
+		2003                                   & \citet{Mori2003}                                & Box above water                                         & JONSWAP                               \\
+		2004                                   & \citet{Greco2004}                               & Ship                                        & Breaking                                 \\
+		2005                                   & \citet{Soares2005}                              & Ship                                        & JONSWAP                               \\
+		2005                                   & \citet{Greco2005}                               & Box                                         & Regular                                 \\
+		2007                                   & \citet{Greco2007}                               & Box                                         & Regular                                  \\
+		2012                                   & \citet{Greco2012}                               & Ship                                        & Regular                                \\
+		2012                                   & \citet{Lee2012}                                & Box                                         & Regular                                 \\
+		2012                                   & \citet{Ariyarathne2012}                         & Box                                         & Breaking                                \\
+		2013                                   & \citet{Liut2013}                                & Ship                                        & Breaking-dam                              \\
+		2015                                   & \citet{Song2015}                                & Box above water                                         & Breaking                               \\
+		2017                                   & \citet{Abdussamie2017}                          & TLP                                         & Irregular                               \\
+		2017                                   & \citet{Scharnke2017}                            & Box above water                                         & Breaking                                \\
+		2018                                   & \citet{Chuang2018}                              & Box                                         & Random                               \\
+		2020                                   & \citet{Lee2020}                                 & Box                                         & Regular                                 \\
+		2020                                   & \citet{Hernandez-Fontes2020}                    & Box                                         & Regular                               \\
+		2020                                   & \citet{Hernandez-Fontes2020a}                   & Box                                         & Regular                                  
+	\end{tabular}
+\label{tab:all_exp_greenwater}
+\end{table}
+
+
+\begin{table}[]
+	\caption{Amount of research into structure and wave types}
+	\begin{tabular}{l|cc|ccc|c|}
+		\multicolumn{1}{c|}{\textbf{}} & \multicolumn{2}{c|}{\textbf{Structure type}} & \multicolumn{3}{c|}{\textbf{Wave type}} & 
+		\multicolumn{1}{c|}{\textbf{Current}}\\
+		\multicolumn{1}{c|}{}          & Box                   & Ship                 & Regular    & Irregular    & Breaking  & Constant  \\ \hline
+		Number of papers               & 13                    & 10                   & 10         & 11           & 5  & 3         \\
+		Percentage of papers           & 57\%                 & 43\%                & 38\%      & 42\%        & 19\%   &   13\% 
+	\end{tabular}
+\label{tab:lit_exp_structuren_wave}
+\end{table}
+13 out of the 24 papers considered stated a value for which they scaled. All of them used Froude similar scaling. Using these values and the known values for the generated waves, an overview of the size of waves used, scaled up to full scale so they are comparable, is given in table \ref{tab:lit_waves_exp}. An asterisk indicates that the research considers breaking waves. This will influence the choice of values.
+\begin{table}[]
+	\caption{Values of waves and current scaled up to full scale. Asterisk indicates that the research uses breaking waves}
+	\begin{tabular}{l|cc|cc|c}
+		\textbf{Research}                      & \multicolumn{2}{|c|}{\textbf{Wave period}}           & \multicolumn{2}{c|}{\textbf{Wave height}}           & \textbf{Length} \\ 
+		&
+		{{min}} & {{max}} & {{min}} & {{max}}          & \textbf{structure} \\ 
+		\multicolumn{1}{c|}{\textit{\textbf{}}} & \textit{{{[}s{]}}} & \textit{{{[}s{]}}} & \textit{{{[}m{]}}} & \textit{{{[}m{]}}}   & \textit{{{[}m{]}}} \\ \hline
+		\citet{Buchner1995}                            & 11.2                         & 12.9                         & 17.3                         & 17.2                                                & 260                     \\
+		\citet{Hamoudi1998}                            & 8.00                          & 12.0                         & 50.2                         & 8.00                                                   & 175                     \\
+		\citet{Ersdal2000}                             & 13.0                         & 12.0                         & 7.50                          & 7.00                                                        & 242                     \\
+		\citet{Stansberg2001}                         & 12.0                         & 14.0                         & 10.0                         & 16.0                                                      & 200                     \\
+		\citet{Ogawa2001}                             & 5.26                          & 8.44                          & 1.44                          & 3.60                        & 72.0                      \\
+		\citet{Ogawa2003}                             & 6.38                          & -                          & 3.33                          & -                                                        & 78.5                      \\
+		\citet{Soares2005}                             & 12.0                         & 20.0                         & 8.00                          & 14.0                                                      & 280                     \\
+		\citet{Greco2012}                              & 6.20                          & 8.77                          & 0.95                          & 2.39                                                       & 80.0                      \\
+		\citet{Lee2012}                                & 12.0                         & 15.5                         & 9.00                          & 22.5                                                      & 150                     \\
+		\citet{Ariyarathne2012}                        & 10.0*                         & 18.6*                         & 27.7*                         & 28.7*                                                      & 62.5                      \\
+		\citet{Abdussamie2017}                         & 15.3                         & 19.7                         & 21.0                         & 32.6                                                       & 125                     \\
+		\citet{Scharnke2017}                          & 7.91*                          & 47.4*                         & 46.5*                        & 56.5*                                                      & 78.8                      \\
+		\citet{Lee2020}                                & 15.1                         & -                          & 13.1                         & -                                                      & 241                   
+	\end{tabular}
+\label{tab:lit_waves_exp}
+\end{table}
+
+\subsection{Green water event types}
+\label{sec:lit_event_types}
+From the experimental research, green water events have been classified into four main categories: dam-break, plunging, plunging dam-break combination and hammer-fist events \cite{Greco2007,Chuang2019,Zhang2019}. The impacts can be an isolated impact event, but multiple events can also follow each other up, influencing the loading \cite{Kendon2010}.  For dam-break scenarios, a wall of water is created around the deck as a consequence of large relative vertical motions between the ship and the water \cite{Buchner2002}. As this water exceeds the freeboard, water flows onto the deck. The subsequent fluid motion on the deck resembles a wet dam-break flow \cite{Faltinsen2002}.  Researchers have developed a good understanding of the impact due to this type of event \cite{Ariyarathne2012}. 
+\par 
+However, plunging and hammer-fist type events lead to the most severe impacts \cite{Greco2007}. This is because they lead to impulsive pressures. Impulsive pressures have a high pressure rise time, in contrast to non-impulsive pressures which have a slow rise time \cite{Chuang2019}. The maximum instantaneous pressure is related to this pressure rise time \cite{Song2015}. 
+\par 
+In contrast to the dam-break event, the plunging wave is not the result of a ship interaction with steep waves causing run-up \cite{Chuang2019,Faltinsen2002}. Plunging green water events are thought to be caused by an (almost) breaking wave impacting on deck or superstructures \cite{Faltinsen2002}. As the wave breaks and overtops the structure, the flow becomes multi-phased and chaotic as an air pocket is formed \cite{Temarel2016}. This air pocket can lead to pressure oscillations and pressure peaks \cite{Lee2020}. Trapped air introduces a randomness which leads to variations in impact pressure \cite{Ariyarathne2012}. 
+\par
+A hybrid event type called a plunging dam-break event has also been identified. This type of event is the result of the interaction of a steep wave with the bow resulting in a wave breaking on deck. 
+Plunging dam-breaking is the most common type of green water \cite{Greco2007, Greco2012}. With this type, air is also being trapped.  \par 
+Hammer-fist type of events are, together with the plunging events, the most severe as they lead to the largest impacts. A hammer-fist impact happens when either a wave is focused locally in front of the edge of the deck, or when a strong wave impacts the vertical wall of the structure, pushing wave run-up onto the deck while maintaining a positive free-board \cite{Chuang2019}. The hammer-fist impact is connected to a steep, non-breaking wave. Hammer-fist impacts are blunt water-deck impacts. For these type of events there is no apparent air entrapment near the bow \cite{Greco2007} 
+\par 
+At this moment no clear quantification of the different events could be found in the literature. The found research made the classifications of the events based off of visuals \cite{Greco2007, Chuang2019, Zhang2019}. Improving the classification can be beneficial for future green water research.
+
+%Based on the discussed literature it is thought that for dam-break, a distributed non-impulsive impact is expected, for plunging a local impulsive impact, for dam-break plunging global pressure distribution with higher pressures at the edge and non-impulsive impact, and for the hammer-fist a global distributed, impulsive impact is expected. NOG GOED NADENKEN, DIT IDD ZO? ANDERE CLASSIFICATIE? BASEREN OP TIME TRACES VAN PRESSURES? MISS OOK IETS TOEVOEGEN OVER LUCHT INSLUITING EN OF DAT ALS CLASSIFICATIE KAN WORDEN GEBRUIKT. MISS JUIST WEL HOE HET WATER AAN BOORD KOMT GEBRUIKEN? IS DEZE MANIER VAN CLASSIFICEREN NIET MISS IETS WAT IK WIL DOEN DOOR MIDDEL VAN SVM OF DISCISION TREES? MAAR HOE GA IK ZE ANDERS ONDERSCHEIDEN? MISS JUIST WEL ONDERSCHEIDEN DOOR DE INKOMENDE GOLF EN DE BEWEGING VAN HET SCHIP DAT ER BIJ HOORT??? \par
+%MOGELIJKE METHODE: EERST VISUEEL ALLES CLASSIFICEREN. DAARNA NAGAAN WELKE MANIER HET OOK KAN (PRESSURE TRACES, SPEED OF WATERFRONT (from camera footage), ETC.)
+
+
+
+% The impact and loading caused by green water depend on many variables, such as the motions of the structure and the steepness of the waves \cite{Greco2001, Buchner2002}. Wave steepness of incident waves and wave-body interaction cause important nonlinear effects \cite{Faltinsen2002}. Two types of pressure variations were identified: impulsive type with a rapid rate of pressure rise and non-impulsive type with a gradual pressure rise rate. \cite{Ariyarathne2012}. The impact can be an isolated impact event, but multiple events can also follow each other up, influencing the loadings \cite{Kendon2010}. 
+
+\section{Fundamental work from similar problems}
+\label{sec:lit_relevant_theories}
+Similar physics can be at play for different phenomena. This is the case with waves on wall (sloshing), slamming (ship on wave) and green water (wave on ship). When looking at one, it is useful to look if you can use theories and research from the others. With help of \cite{Dias2018} a short overview of relevant theories is made. They are mostly for scaling. 
+\newline \par
+
+\textbf{\citet{Wagner1932}}\\
+A model for an object entering a fluid is created by \citet{Wagner1932}. This is a model for the water entry problem. The Wagner model provides a solution for the impact pressure. For a Froude scaled problem and equal scaled density, Wagner scaling can be included \cite{Dias2018}. 
+\newline \par
+
+\textbf{\citet{Bagnold1939}}\\
+\citet{Bagnold1939} created a piston model. It models a piston with an initial velocity sliding along a tube with perfect gas entrapped. Bagnold-scaling is useful for scaling problems where the pressure inside gas pockets trapped by breaking waves is relevant \cite{Brosset2013}. The model can partially correct for the compressibility bias for wave impacts \cite{Lafeber2012}. \citet{Brosset2013} has further generalized the model. 
+\newline \par
+
+\textbf{Rankine-Hugoniot}\\
+For shockwaves a 1D model including the compressibility of a liquid can be used, based on Rankine-Hugoniot conditions. When looking at the pressure calculated using this model, a different scaling than with Bagnold's model is found. This is due to direct liquid impacts \cite{Dias2018}.
+\newline \par
+
+\textbf{The scaling problem}\\
+%\textbf{\citet{Lafeber2012b}}\\
+For accurate sloshing model tests, Froude scaling, density ratio scaling, and speeds of sound have to be Froude scaled. Then the different phenomena should be balanced the same at both scales. This is not practically feasible as shown by \citet{Braeunig2009}.\par 
+For a wave impact on a wall, various elementary loading processes (ELP's) are identified by \citet{Lafeber2012b}. There are three identified, and each directly relates to one of the main physical phenomena involved. ELP 1, 2 and 3 respectively relate to liquid compressibility, the liquid change of momentum and compressibility of gas. For ELP1 Rankine-Hugoniot's work is relevant, for ELP2 Wagner's, and for ELP3 Bagnold's \cite{Dias2018}. The different ELP's do interact, so scaling correctly for one won't mean that the corresponding phenomenon is appropriately scaled. The ELP's do give insight into the problem with scaling for these types of impacts. 
+\newline \par
+\textbf{\citet{Kiger2011}}\\
+\citet{Kiger2011} Investigates entrained and trapped air in a plunging jet or breaking plunging wave. It shows an importance of using nondimensional numbers to gain insight into the problem. It also investigates the connection between the simplified cases and the full complex situations, and concludes that nonlinear interactions of multiple dynamic processes is limiting.
+%ADD A SUMMARY/INFORMATION FROM KIGER 2011 TO THIS TEXT (ALSO ABOUT NONDIMENSIONAL NUMBERS) "As a final closing comment to this discussion, we acknowledge that a mechanistic approach from direct observation also has its limitations, particularly when there is the potential for the nonlinear interactions of multiple dynamic processes." \par 
+\newline \par
+
+\textbf{\citet{Oumeraci1993}}\\
+This research is not focused on scaling, but qualitatively classifies
+four types of breakers. The corresponding impact loads are described, leading to the ability to identify different impact types using the force history \cite{Oumeraci1993}. Classifying the impact types for green water is one of the goals, as stated in paragraph \ref{sec:deliv_goals}. 
+
+
+\subsection{Air entrapment}
+\label{sec:lit_air_entrapment}
+
+%HIER MEER ECHT EEN INTRO STUKJE VOOR EEN MOGELIJK PAPER VAN MAKEN \par
+When experiments are conducted, the problem is scaled down to fit inside test facilities. 
+%The previously mentioned research also evaluates the scaling effects that influence experiments \cite{Song2015}. These are investigated as 
+For green water experiments, scaling laws are violated for the effect of air entrapment. Air entrapment in scaled experiments can for instance lead to surface tension influencing the green water \cite{Greco2005}. 
+%Air entrapment is of importance as it influences the impact pressure. 
+A high level of aeration can increase both the force and impulse on a structure \cite{Ariyarathne2012}. 
+\par 
+Air entrapment is also relevant for coastal engineering \cite{Chan1994}, sloshing \cite{Lugni2006}, and slamming events \cite{Guzel2019}. The literature from these research areas involving air entrapment is used to look into air entrapment. Through experimental research on waves impacting a vertical wall, it is found that small amounts of entrapped air lead to a significant increase in impact pressure. A large amount of entrapped air has a damping effect on the pressures \cite{Hattori1994}. With computational simulations, slamming events where air and water mix are also researched. Pockets of bubbles can cushion the pressures, while for small bubbles in the water the pressure oscillations are more intense \cite{Sun2019}. Particle image velocimetry (PIV) combined with pressure sensors showed oscillating behaviour for air entrapment during sloshing \cite{Lugni2006}. The cushioning effect of air entrapment on the loading for a cylinder entering water is investigated numerically and experimentally \cite{Guzel2019}. Air entrapped for ocean waves impacting on sea walls is experimentally researched. It shows that air can be compressed to a pressure of several atmospheres and pressure shock-waves can lead to pressures comparable with those of the initial impact \cite{Bredmose2009}. Research to improve numerical simulations of air entrapment has also been conducted in recent years \cite{Sun2019, VanDerEijk2020}.
+
+
+\section{Simulation methods}
+\label{sec:lit_sim_green_water}
+Despite difficulties with the numerical simulations of green water, work continued. Work on the numerical simulation has been focussed on reducing the costs of calculations and increasing the quality. This research is also mostly conducted for FPSO type vessels or container ships, or simplified structures. 
+Even though several numerical models have been developed to predict impact pressure, most of them are based on simplified assumptions such as inviscid and incompressible fluid, and single-phase flows \cite{Ariyarathne2012}. 
+\par 
+One of the simulation methods is numerical time-domain simulations based on an incompressible flow solver operating on unstructured grids. It shows good agreement with experimental results \cite{Lu2012}. An SPH method was used to simulate an extreme plunging wave impinging on the deck \cite{Soares2015} and to predict the fluid behaviour for green water \cite{LeTouze2010}. A hybrid CFD method involving linear seakeeping and nonlinear CFD analysis, both using 3D modelling of the hull, was introduced \cite{Kim2013}. Also, a three-step method (CFD-BEM-FEM) has been introduced to evaluate the loads due to green water on a container ship \cite{Kudupudi2019}. The Natural Element Method (NEM) employs a CIP-based method and a particle method to simulate strongly nonlinear wave-body interaction problems and is promising to be a valid alternative for green water simulations \cite{Hu2010}.
+A CFD method with VOF-multiphase and SST-turbulence gives access to
+high spatial resolution free surface position, water velocities and load distribution, phenomena usually not available from experiments \cite{Mandate2018}. Simulations with a multiphase-flow software based on a free-surface capturing method are used to evaluate green water for a Wigley hull. To reduce numerical diffusion at the free surface a solid-liquid-gas flow coupling model is developed by adopting Blend Reconstruction Interface Capturing Scheme (BRICS) \cite{He2017}.
+\par 
+From research into simulating green water loading with dam-break simulations it is found using a turbulence model, in this case k-\(\epsilon\) turbulence closure, gives the most accurate simulation results \cite{Khojasteh2020}. By comparing vertical loadings found with experiments to simple potential theory-based simulations and commercial CFD code it was found that potential code is adequate to find vertical loadings due to isolated impact events \cite{Kendon2010}. A potential theory-based engineering tool called KINEMA3 is developed to predict wave-induced impact loads on FPSOs in steep irregular waves, and for use in design load analysis \cite{Schiller2014}. A combination of the KINEMA3 and a CFD tool using the finite volume VoF (STARCCM+) is introduced. KINEMA3 is used to generate inlet conditions and STARCCM+ to model detailed flow on the deck \cite{Pakozdi2014}. Another way of combining a potential and CFD tool is by using a potential solver which finds the motions of a vessel and then using a CFD solver to find the green water loading \cite{Zhu2009}. A numerical approach using potential theory in the frequency domain to predict the relative wave elevation response for an FPSO can also be used \cite{Wang2017}.
+
+
+
+%\section{SETUP:General literature}
+%\begin{itemize}
+%	\item S:
+%	Green water is a thing.
+%	
+%	\item C:
+%	There are still questions about green water, and it is difficult to predict, and thus design for. 
+%	This is difficult because different types of events captured in one model.
+%	First, further insights into all events
+%	As stated, statistics needed.
+%	
+%	\item Q:
+%	Is there a way to improve prediction of green water by looking at the different types of impacts as separate phenomenon?
+%	
+%	What are the statistics for each of the green water events?
+%	
+%	What are the overall lifetime loadings of green water on a vessel?
+%	
+%	
+%	\item A:
+%	Going to do long running experiments
+%	With methods to identify the different event types
+%	
+%	?????????????
+%\end{itemize}
+
+
+
+
+
+
+
+
+
+
+
+
+

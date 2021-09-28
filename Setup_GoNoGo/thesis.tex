@@ -1,0 +1,108 @@
+\documentclass[10pt.a4paper.twoside,openright,titlepage,fleqn,%
+               headinclude,footinclude,BCOR5mm,%
+               numbers=noenddot,cleardoublepage=empty]{scrreprt}
+
+\usepackage{graphicx}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage[utf8]{inputenc} 
+\usepackage[square,numbers]{natbib}
+\usepackage{subcaption} 
+\usepackage[dvipsnames]{xcolor}
+\usepackage{hyperref} 
+\usepackage[ruled,vlined,algochapter,linesnumbered]{algorithm2e}
+\usepackage{chngpage}
+\usepackage{calc}
+\usepackage{ccicons} 
+\usepackage{xspace} 
+\usepackage{booktabs} 
+\usepackage[english]{babel}  
+\usepackage{listings}
+\usepackage{scrhack} % ignore warnings about deprecated KOMA-Script
+\usepackage[printonlyused,smaller,withpage]{acronym}
+\usepackage{nomencl}
+\makenomenclature
+\usepackage[floatperchapter,dottedtoc,eulerchapternumbers,pdfspacing,linedheaders]{classicthesis}
+\usepackage{arsclassica}
+
+\usepackage{pdfpages}
+
+\input{mysettings}
+
+
+\begin{document}
+\pagenumbering{roman}
+\pagestyle{plain}
+
+
+%******************************************************************
+% The cover page 
+% (it this needs to be manually edited and exported as a PDF)
+% (see folder README.txt in folder 'cover')
+% (I would not include it for the version you put in the repository)
+%******************************************************************
+
+%\includepdf{cover/Cover_Proposal.pdf}
+
+%******************************************************************
+% Frontmatter
+%******************************************************************
+
+%\input{front/titlepage}
+%\clearpage
+%\input{front/titleback}
+%\clearpage
+\input{front/abstract}
+%\input{front/acknow}
+%\pagestyle{scrheadings} 
+%\clearpage
+\input{front/contents}
+%\clearpage
+%\input{front/acronyms}
+%\cleardoublepage
+
+%******************************************************************
+% Mainmatter
+%******************************************************************
+\pagenumbering{arabic}
+%\input{chapters/introduction}
+%\input{front/contents}
+\input{chapters/literature}
+%\input{chapters/background}
+%\input{chapters/objective}
+\input{chapters/deliverables}
+\input{chapters/intro}
+\input{chapters/method}
+\input{chapters/research2}
+%\input{chapters/poa}
+%\input{chapters/relatedwork}
+
+% *****************************************************************
+% Backmatter
+%******************************************************************
+%\appendix
+
+%%%
+%- bibliography
+\bibliographystyle{abbrvnat}
+%\bibliographystyle{unsrtnat} 
+% To change the bibliography style, first get rid of the bibliography by outcommenting the line below, change the bibliography style and then regenerate the biblography again, and the reload again to fix numbering
+\bibliography{library}
+
+%%%
+%\newpage
+%\cleardoublepage
+%%\include{appendices/someumldia}
+%
+%%\clearpage
+%%\include{back/colophon}
+%\cleardoublepage
+%% \input{back/Index}
+%
+%\includepdf{cover/cover_back.pdf}
+
+\end{document}
+
+
+
+
+

@@ -1,0 +1,91 @@
+\chapter*{New (affordable) experimental setup for continuous research into wave impacts on ships}
+S: \\
+Nonlinear wave events, like green water and slamming can lead to problems. \\
+These event types are also very complex. \\
+Main methods of investigating: experiments, some simulations \\
+C: \\
+Simulations still very expensive \\
+Experiments done in towing tank or wave flume \\
+Either limited testing times or no forward velocities \\
+Can be overcome by knitting, but very expensive \\
+Back in the day no problem, because limit on data we can handle \\
+Not anymore, now the testing facilities and expenses are limiting \\
+Large data sets needed for (name for what Sanne is doing)\\
+This limited size of data sets possibly also prevents experimental data to be used for machine learning \\
+Need for cheap method of generating large data sets for nonlinear wave impacts \\
+Continues experiments would be perfect but not yet a facility for them\\
+Q:\\
+Experimental method needed that can cheaply generate data for loads of different nonlinear wave events \\
+A:\\
+Wave-current tank good option. Adapting flumetank by placing a wavemaker and beach on it\\
+Does have limits (wave reflections, scale), but can give great insight into the stochastic of events like green water and slamming \\
+\\
+
+
+Such a wave-current tank created \\
+Green water experiments conducted to see if it works \\
+Validated with green water experiments in towing tank (same model) \\
+
+
+First insights from big data (to show value of such a test facility)\\
+
+
+\chapter{Continuous testing facility}
+\label{sec:exp_setup}
+Because of these reasons this experimental facility will be created. \\
+Existing flumetank is used \\
+ALL INFO ABOUT EXISTING FLUMETANK \\
+A schematic of the tank is shown in HIER EEN FIGUUR VAN DE BESTAANDE FLUMETANK MET AFMETINGEN. 
+
+
+\section{Wavemaker}
+\label{sec:wavemaker}
+Wavemaker: some design conditions \\
+1: has to operate in flow (no obstruction but still good waves) \\
+2: has to be operable within the dimensions of the tank \\
+3: has to be able to make regular and irregular waves \\
+Plunging wedge type wavemaker, based in theory developed over the years by \citet{Madsen1970,Wu1988,Lowell2020} \\
+Designed for waves of a length between 0.05 meter and 3 meter with a maximum wave height over length of 1/50. These values are chosen because at maximum water depth the waves will be deep water to intermediate gravity waves in this range. \\
+These design choices have led to the wavemaker shown in figure HIER EEN PLAATJE VAN DE GOLFMAKER. The maximum amplitude of the stroke of the wavemaker is 0.12 m and the maximum velocity is 0.6 m/s. To move and control the wavemaker a servo motor (EMMT-AS-80-M-HS-RSB), servo motor controller (CMMT-AS-C3-11A-P3-EP-S1) and electric cylinder (ESBF-BS-50-300-10P-S1-R3)  are used. 
+
+\subsection{Waves wavemaker}
+\label{sec:results_wavemaker}
+HIER METINGEN VAN DE GOLVEN DIE GEMAAKT WORDEN (CONSTANT/SPREIDING, MAX, MIN, ONREGELMATIG)\\
+WAVESPECTRUM JONSWAP BUT CUTOFF FOR FREQUENTIES ABOVE 6Hz, THESE ARE CAPILLARY WAVES AND ALSO THE HIGH FREQUENCY TALE, LESS RELEVANT (this is the case for the P Wellens files)
+
+\section{Beach}
+\label{sec:beach}
+To minimize reflections which will interfere with the created waves, the waves should be dissipated as much as possible once they have moved passed the model.
+For this a dissipation device, also called a beach, is used. \\
+Instead of making this beach impermeable, it is more effective to introduce perforations help dissipate wave energy. The size of the perforations for the beach were based on the research by \citet{Chegini1994}. The beach is made of 1 mm thick stainless steel with 5 mm wide squares and a total perforation rate of 45\%.  \\
+For the shape of the beach a parabola was chosen. From a survey conducted by \citet{Ouellet1986} the parabolic shape profile was recommended. Based on the results found in \citet{Hodaei2016} and scaling those to our experiments, a parabolic shape of $y = -3.32 \cdot x^2 + 0.04\cdot x$ was chosen. The beach is placed such that the highest point is at the waterline. The scaling and design of the beach is done with a focus on long waves. This because for the longest waves the largest reflection coefficients are found, as shown in \cite{Suh2003}. They also contain more energy compared to shorter waves of similar steepness. Also, they move faster thus could actually be able to move towards the model even if there is current, and they have the highest chance of influencing the results. Because of all these reasons the focus during the designing of the beach has been on damping these largest waves.
+
+\subsection{Effectiveness beach}
+\label{sec:results_beach}
+HIER METINGEN VAN DE DEMPING VAN GOLVEN (VERSCHILLENDE REGELMATIGE GOLVEN, ONREGELMATIGE GOLVEN, VERSCHILLENDE STROOM SNELHEDEN)
+
+\section{Validation facility}
+\label{sec:validation_facility}
+HIER DE VERGELIJKING TUSSEN DE SLEEPTANK EN DE CONTINUOUS TESTING TANK
+
+\section{Data handling}
+\label{sec:data_handeling}
+Goal of test facility is to create large amounts of data, but we need to also save, store and work with this data \\
+The data is obtained with the discussed equipment, and acquired with the NI USB 6009. \\
+The data is saved in new files every X minutes using Labview, software from National Instruments. \\
+Video footage is obtained and saved using the open source software Open Broadcaster Software (OBS). 
+
+\subsection{Data analysis}
+\label{sec:analyzing_data}
+To find the events the wetness sensors are used \\
+EXPLAIN HOW I HANDLED ALL THE DATA
+
+
+\chapter{Experiments}
+\label{sec:experiments}
+
+\section{Chosen conditions}
+\label{sec:exp_conditions}
+The peak frequency and significant wave height are based on rough sea conditions or storm conditions found in sources \cite{Deelen2014, Mazaheri2019, Collins2018, Techet2005}. \\
+
+At full scale the depth would be about ......... This might seem unrealistic as the average of the worlds oceans is 3729 m \cite{Zeecijfers}. The North Sea and Gulf of Thailand however, areas with a lot of ship traffic, have respectively and average depth of 95 m \cite{NorthSeaDepth} and 58 m \cite{Khongchai2003}. This shows that the wave conditions where bottom effects play some role are not unreasonable.
